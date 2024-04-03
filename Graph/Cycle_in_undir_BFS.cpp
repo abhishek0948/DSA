@@ -1,4 +1,5 @@
-// https://www.naukri.com/code360/problems/cycle-detection-in-undirected-graph_1062670?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
+// https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+
 #include <bits/stdc++.h>
 using namespace std;
 bool isCycle(int src,unordered_map<int,list<int>> &adj,unordered_map<int,bool> &visited){
